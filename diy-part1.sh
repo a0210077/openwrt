@@ -14,4 +14,4 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git myself https://github.com/a0210077/openwrt-package.git' >>feeds.conf.default
+echo 'src-git custom https://github.com/a0210077/openwrt-package.git' >>feeds.conf.default
